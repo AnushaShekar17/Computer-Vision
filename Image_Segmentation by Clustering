@@ -1,0 +1,31 @@
+Image segmentation by clustering involves grouping pixels in an image into segments based on their similarity, such as color, intensity, or texture. Clustering is an unsupervised learning method, meaning it doesn’t rely on labeled data. Popular clustering algorithms for image segmentation include:
+
+1. K-Means Clustering
+Groups pixels into k clusters based on their color, intensity, or spatial information.
+Simple and widely used for color-based segmentation.
+
+2. Mean-Shift Clustering
+Identifies dense regions in feature space.
+Effective for arbitrary-shaped clusters and does not require specifying the number of clusters.
+
+3. DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+Groups pixels into clusters based on density.
+Useful for segmenting images with irregular shapes and handling noise.
+
+4. Gaussian Mixture Models (GMM)
+Uses probability distributions to model the image data.
+Assigns each pixel to a cluster based on the probability it belongs to a specific Gaussian component.
+
+5. Agglomerative (Hierarchical) Clustering
+Builds a hierarchy of clusters by merging or splitting them based on pixel similarity.
+Does not require specifying the number of clusters beforehand.
+
+Steps in Clustering-Based Segmentation
+Feature Extraction:
+Features can include pixel intensity, RGB values, spatial coordinates, texture, etc.
+Clustering:
+Apply a clustering algorithm (e.g., K-Means or GMM) to group similar pixels.
+Mapping:
+Assign each pixel to its respective cluster, creating segmented regions.
+
+
