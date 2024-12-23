@@ -29,5 +29,3 @@ Apply a clustering algorithm (e.g., K-Means or GMM) to group similar pixels.
 
 Mapping:
 Assign each pixel to its respective cluster, creating segmented regions.
-
-
