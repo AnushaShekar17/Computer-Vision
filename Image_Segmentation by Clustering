@@ -1,4 +1,4 @@
-####Image segmentation by clustering involves grouping pixels in an image into segments based on their similarity, such as color, intensity, or texture. Clustering is an unsupervised learning method, meaning it doesn’t rely on labeled data. Popular clustering algorithms for image segmentation include:
+###Image segmentation by clustering involves grouping pixels in an image into segments based on their similarity, such as color, intensity, or texture. Clustering is an unsupervised learning method, meaning it doesn’t rely on labeled data. Popular clustering algorithms for image segmentation include:
 
 1. K-Means Clustering
 Groups pixels into k clusters based on their color, intensity, or spatial information.
